@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #cdb4db;
+}
+
+h1 {
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: #9b5de5;
+    padding-left: 100px;
+    margin:0px;
+    display: none;
+}
+
+#one {
+    text-align:center;
+    padding: 40px ;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin: 10px;
+    background-color: #f08080; 
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%; /* An eady way to create a circle*/
+    /* box-sizing:border-box; */
+}
+
+#two {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f4978e;
+    border-color: grey;
+    border-width: 3px;
+    border-style: dotted;
+}
+
+#three {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f8ad9d;
+    border: 4px solid black;
+    border-left-width: 2px;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px 30px 40px;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 1px solid black;
+    display: inline-block;
+}

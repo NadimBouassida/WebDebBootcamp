@@ -1,0 +1,14 @@
+section {
+    width: 80%;
+    height: 800px;
+    background-image: url(https://media.istockphoto.com/photos/black-brick-wall-brickwork-background-for-design-picture-id902922486);
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
