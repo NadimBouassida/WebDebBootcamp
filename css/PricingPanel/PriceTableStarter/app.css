@@ -50,7 +50,7 @@ body {
 
 
 .pricing-features-item {
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 1px;
     font-size: 12px;
     line-height: 1.5;
@@ -95,4 +95,20 @@ body {
 .pricing-button.is-featured:focus {
     background-color: #269aff;
     color: white;
+}
+
+@media (min-width: 800px) {
+    .panel {
+        flex-direction: row;
+    }
+
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 20px;
+    }
+
+    .pricing-plan:last-child {
+        border-right: none
+    }
 }
